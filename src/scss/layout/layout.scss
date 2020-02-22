@@ -1,0 +1,22 @@
+.layout {
+  &__wrapper {
+    min-height: 100vh;
+    position: relative;
+  }
+
+  &__main {
+    padding: 48px 0 64px 0;
+  }
+
+  &__wide {
+    max-width: 1180px;
+    margin: 0 auto;
+    //padding: 0 16px;
+  }
+
+  &__slim {
+    max-width: 728px;
+    margin: 0 auto;
+    //padding: 0 16px;
+  }
+}

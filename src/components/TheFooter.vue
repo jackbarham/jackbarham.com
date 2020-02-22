@@ -1,0 +1,94 @@
+<template>
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__social">
+        <a
+          v-for="(social, index) in socials"
+          :key="index"
+          :class="'footer__social-icon footer__' + social.class"
+          :href="social.url"
+          target="_blank"
+          :title="'Jack Barham on ' + social.name"
+        >
+          <component v-bind:is="social.name"></component>
+        </a>
+      </div>
+      <div class="footer__meta">
+        <div class="footer__twitter-follow">
+          <a
+            href="https://twitter.com/JackBarham"
+            class="twitter-follow-button"
+            data-show-count="true"
+          >Follow @JackBarham</a>
+          <div class="footer__legal">
+            <p class="footer__copy">Copyright &copy; 2010 - 2020 Airbox Media Ltd</p>
+            <!-- <p class="footer__copy">Registered in England & Wales. Company Reg No. 07597522</p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</template>
+
+<script>
+import Github from '../icons/Github.vue';
+import Instagram from '../icons/Instagram.vue';
+import Linkedin from '../icons/Linkedin.vue';
+import Medium from '../icons/Medium.vue';
+import Twitter from '../icons/Twitter.vue';
+// import Vibecast from '../icons/Vibecast.vue';
+
+export default {
+  name: 'TheFooter',
+  components: {
+    Github,
+    Instagram,
+    Linkedin,
+    Medium,
+    Twitter
+    // Vibecast
+  },
+  data: () => ({
+    socials: [
+      {
+        name: 'Twitter',
+        class: 'twitter',
+        url: 'https://twitter.com/JackBarham'
+      },
+      {
+        name: 'Instagram',
+        class: 'instagram',
+        url: 'https://www.instagram.com/jackbarham'
+      },
+      {
+        name: 'Linkedin',
+        class: 'linkedin',
+        url: 'https://www.linkedin.com/pub/jack-barham/13/265/ba5'
+      },
+      {
+        name: 'Github',
+        class: 'github',
+        url: 'https://github.com/jackbarham'
+      },
+      {
+        name: 'Medium',
+        class: 'medium',
+        url: 'https://medium.com/@jackbarham'
+      }
+    ]
+  }),
+  mounted() {
+    !(function(d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0],
+        p = /^http:/.test(d.location) ? 'http' : 'https';
+      if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = p + '://platform.twitter.com/widgets.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }
+    })(document, 'script', 'twitter-wjs');
+  }
+};
+</script>

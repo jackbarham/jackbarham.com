@@ -1,0 +1,63 @@
+// Base font size
+$base-font-size-for-rem-calc: 16;
+
+@mixin rem-polyfill($desired-rem-size) {
+  font-size: ($desired-rem-size * $base-font-size-for-rem-calc) + px;
+  font-size: $desired-rem-size + rem;
+}
+
+@mixin font-size($desired-pixel-size) {
+  $desired-rem-size: $desired-pixel-size / $base-font-size-for-rem-calc;
+  font-size: ($desired-rem-size * $base-font-size-for-rem-calc) + px;
+  font-size: $desired-rem-size + rem;
+}
+
+// Font type
+@mixin font-regular() {
+  font-family: ff-meta-serif-web-pro, serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@mixin font-italic() {
+  font-family: ff-meta-serif-web-pro, serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+@mixin font-s-regular() {
+  font-family: soleil, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin font-medium() {
+  font-family: soleil, serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@mixin font-black() {
+  font-family: soleil, serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+// Layouts
+@mixin layout-wide() {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+// Anchors
+@mixin anchor {
+  text-decoration: none;
+  color: $c-anchor;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom $transition;
+
+  &:hover {
+    border-bottom: 1px solid lighten($c-anchor, 8);
+  }
+}

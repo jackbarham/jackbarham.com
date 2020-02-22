@@ -1,0 +1,47 @@
+body,
+html {
+  margin: 0;
+  min-width: 320px;
+  padding: 0;
+}
+
+body {
+  // background-color: $color-dark;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.video-wrapper {
+  background-color: #000;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video-wrapper iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.ie11 {
+  display: none;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .ie11 {
+    display: block;
+  }
+}

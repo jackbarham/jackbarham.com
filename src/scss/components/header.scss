@@ -1,0 +1,49 @@
+.header {
+  &__inner {
+    @include layout-wide();
+    margin: 32px 0 0 0;
+
+    @media (min-width: $width-mid) {
+      height: 106px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__logo {
+    @include font-black();
+    @include font-size(27);
+    text-align: center;
+    margin: 0 0 1rem 0;
+
+    @media (min-width: $width-mid) {
+      @include font-size(35);
+    }
+  }
+
+  &__nav {
+    text-align: center;
+  }
+
+  &__nav-item {
+    @include font-size(13);
+    @include font-medium();
+    // margin-left: 48px;
+    text-transform: uppercase;
+    padding: 16px;
+    letter-spacing: 0.1rem;
+    margin-right: -0.1rem;
+    color: $c-text;
+    border-bottom: 1px solid transparent;
+    transition: color $transition;
+
+    &:hover {
+      color: $c-anchor;
+    }
+
+    &:first-child {
+      margin: 0;
+    }
+  }
+}

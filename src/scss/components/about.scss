@@ -1,0 +1,20 @@
+.about {
+  &__image {
+    max-width: 896px;
+    margin: 0 auto 56px auto;
+  }
+
+  &__sections {
+    margin-bottom: 48px;
+    padding: 0 16px;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__title {
+    @include font-size(27);
+    margin-bottom: 0.75rem;
+  }
+}

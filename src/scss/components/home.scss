@@ -1,0 +1,16 @@
+.home {
+  &__hero {
+    @include font-size(25);
+    text-align: center;
+    margin: 16px 0 64px 0;
+
+    @media (min-width: $width-mid) {
+      @include font-size(63);
+      margin: 16px 0 128px 0;
+    }
+  }
+
+  &__featured {
+    margin-bottom: 64px;
+  }
+}

@@ -1,0 +1,82 @@
+.footer {
+  // width: 100%;
+  // bottom: 0;
+  // position: absolute;
+  border-top: 1px solid $c-border;
+
+  .twitter-follow-button {
+    margin-bottom: 8px;
+  }
+
+  &__inner {
+    @include layout-wide();
+    padding: 32px 16px 64px 16px;
+
+    @media (min-width: $width-mid) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__copy {
+    @include font-s-regular();
+    @include font-size(13);
+    color: $c-text-light;
+    margin: 0;
+  }
+
+  &__twitter-follow {
+    text-align: center;
+  }
+
+  &__social {
+    display: flex;
+    margin: 0 auto 32px auto;
+  }
+
+  &__social-icon {
+    display: block;
+    height: 48px;
+    width: 48px;
+    padding: 8px;
+    background-color: $c-text;
+    margin-left: 8px;
+    text-align: center;
+    transition: background-color $transition;
+
+    .icon {
+      height: 100%;
+      width: 100%;
+
+      path {
+        fill: white;
+      }
+    }
+
+    &.footer__twitter:hover {
+      background-color: $color-twitter;
+    }
+
+    &.footer__instagram:hover {
+      background-color: $color-instagram;
+    }
+
+    &.footer__linkedin:hover {
+      background-color: $color-linkedin;
+    }
+
+    &.footer__github:hover {
+      background-color: $color-github;
+    }
+
+    &.footer__medium:hover {
+      background-color: $color-medium;
+    }
+  }
+
+  .icon__instagram {
+    height: 90%;
+    width: 90%;
+  }
+}

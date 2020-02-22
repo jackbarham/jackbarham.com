@@ -1,0 +1,46 @@
+.activity {
+  &__item {
+    margin-bottom: 48px;
+    padding: 0 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__title {
+    @include font-size(21);
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+    a {
+      color: $c-heading;
+
+      &:hover {
+        color: $c-anchor;
+        text-decoration: none !important;
+      }
+    }
+  }
+
+  &__meta {
+    @include font-s-regular();
+    @include font-size(15);
+    color: $c-text-light;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+
+    li {
+      margin-right: 16px;
+    }
+  }
+
+  &__intro {
+    margin-bottom: 0.5rem;
+  }
+
+  &__link {
+    @include anchor();
+  }
+}
