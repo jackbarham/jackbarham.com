@@ -1,14 +1,14 @@
 .header {
   &__inner {
     @include layout-wide();
-    margin: 32px 0 0 0;
+    padding-top: 32px;
 
     @media (min-width: $width-mid) {
       height: 106px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin: 0;
+      padding-top: 0;
     }
   }
 
@@ -18,8 +18,12 @@
     text-align: center;
     margin: 0 0 1rem 0;
 
-    @media (min-width: $width-mid) {
+    @media (min-width: $width-slim) {
       @include font-size(35);
+    }
+
+    @media (min-width: $width-mid) {
+      margin: 0;
     }
   }
 
@@ -30,7 +34,6 @@
   &__nav-item {
     @include font-size(13);
     @include font-medium();
-    // margin-left: 48px;
     text-transform: uppercase;
     padding: 16px;
     letter-spacing: 0.1rem;
@@ -41,6 +44,11 @@
 
     @media (min-width: $width-tiny) {
       @include font-size(15);
+    }
+
+    @media (min-width: $width-mid) {
+      padding: 0;
+      margin-left: 48px;
     }
 
     &:hover {
