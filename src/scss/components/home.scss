@@ -4,15 +4,23 @@
     text-align: center;
     margin: 16px 0 64px 0;
 
-    @media (min-width: $width-slim) {
-      @include font-size(39);
-      margin: 16px 0 128px 0;
+    @media (min-width: $width-tiny) {
+      @include font-size(29);
     }
 
-    // @media (min-width: $width-mid) {
-    //   @include font-size(70);
-    //   margin: 16px 0 128px 0;
-    // }
+    @media (min-width: $width-slim) {
+      @include font-size(39);
+      margin: 16px 0 96px 0;
+    }
+
+    @media (min-width: $width-mid) {
+      @include font-size(53);
+      margin: 16px 0 112px 0;
+    }
+
+    @media (min-width: $width-wide) {
+      @include font-size(63);
+    }
   }
 
   &__featured {
