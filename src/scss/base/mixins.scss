@@ -56,6 +56,18 @@ $base-font-size-for-rem-calc: 16;
   }
 }
 
+@mixin layout-slim() {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @media (min-width: $width-mid) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
 // Anchors
 @mixin anchor {
   text-decoration: none;

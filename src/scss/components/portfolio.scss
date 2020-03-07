@@ -3,17 +3,18 @@
     @media (min-width: $width-slim) {
       display: flex;
       flex-wrap: wrap;
-      margin: -8px;
+      margin: 0 -8px;
     }
   }
 
   &__item {
     display: block;
-    padding: 0 16px 32px 16px;
+    padding: 0 0 32px 0;
     border: none;
 
     @media (min-width: $width-slim) {
       flex: 1 1 50%;
+      padding: 0 8px 32px 8px;
     }
 
     @media (min-width: $width-wide) {

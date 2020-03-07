@@ -9,14 +9,10 @@
   }
 
   &__wide {
-    max-width: 1180px;
-    margin: 0 auto;
-    //padding: 0 16px;
+    @include layout-wide();
   }
 
   &__slim {
-    max-width: 728px;
-    margin: 0 auto;
-    //padding: 0 16px;
+    @include layout-slim();
   }
 }

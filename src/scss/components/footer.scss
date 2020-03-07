@@ -12,7 +12,7 @@
   &__inner {
     @include layout-wide();
     padding-top: 32px;
-    padding-bottom: 64px;
+    padding-bottom: 48px;
 
     @media (min-width: $width-mid) {
       display: flex;
