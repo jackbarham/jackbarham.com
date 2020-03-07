@@ -5,6 +5,8 @@ node_modules
 # local env files
 .env.local
 .env.*.local
+.keys.js
+.awspublish
 
 # Log files
 npm-debug.log*

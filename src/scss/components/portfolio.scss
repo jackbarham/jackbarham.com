@@ -23,6 +23,7 @@
 
     &:hover {
       border: none;
+
       .portfolio__image {
         opacity: 0.7;
       }
@@ -30,7 +31,7 @@
   }
 
   &__image {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     opacity: 1;
     transition: opacity $transition;
     background-color: $c-border;
@@ -43,7 +44,7 @@
 
   &__title {
     @include font-black();
-    @include font-size(21);
+    @include font-size(19);
     margin: 0 0 0.1rem 0;
     line-height: 1;
   }
