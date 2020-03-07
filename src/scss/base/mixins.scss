@@ -45,9 +45,15 @@ $base-font-size-for-rem-calc: 16;
 
 // Layouts
 @mixin layout-wide() {
-  max-width: 1180px;
+  max-width: 1196px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @media (min-width: $width-mid) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 // Anchors

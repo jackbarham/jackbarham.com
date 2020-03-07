@@ -6,16 +6,23 @@
 
   .twitter-follow-button {
     margin-bottom: 8px;
+
+    @media (min-width: $width-mid) {
+      margin: 0;
+    }
   }
 
   &__inner {
     @include layout-wide();
-    padding: 32px 16px 64px 16px;
+    padding-top: 32px;
+    padding-bottom: 64px;
 
     @media (min-width: $width-mid) {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      flex-direction: row-reverse;
+      padding-bottom: 32px;
     }
   }
 
@@ -28,11 +35,20 @@
 
   &__twitter-follow {
     text-align: center;
+
+    @media (min-width: $width-mid) {
+      text-align: left;
+    }
   }
 
   &__social {
     display: flex;
     margin: 0 auto 32px auto;
+    justify-content: center;
+
+    @media (min-width: $width-mid) {
+      margin: 0;
+    }
   }
 
   &__social-icon {
@@ -44,6 +60,10 @@
     margin-left: 8px;
     text-align: center;
     transition: background-color $transition;
+
+    &:first-child {
+      margin: 0;
+    }
 
     .icon {
       height: 100%;

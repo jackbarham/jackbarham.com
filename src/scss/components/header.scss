@@ -8,6 +8,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin: 0;
     }
   }
 
@@ -37,6 +38,10 @@
     color: $c-text;
     border-bottom: 1px solid transparent;
     transition: color $transition;
+
+    @media (min-width: $width-tiny) {
+      @include font-size(15);
+    }
 
     &:hover {
       color: $c-anchor;
