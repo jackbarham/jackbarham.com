@@ -2,7 +2,7 @@ module.exports = [
   {
     title: 'Code for this website is opensource',
     copy:
-      'I have open-sourced the code for this website on Github which deos not require any back-end. Feel free to use and abuse as you wish.',
+      'I have open-sourced the code for this website which deos not require any back-end on Github. Feel free to use and abuse as you wish.',
     date: '18th Mar 2020',
     buttonText: 'View on Github',
     link: 'https://github.com/jackbarham/jackbarham.com',
