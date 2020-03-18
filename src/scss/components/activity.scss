@@ -8,7 +8,7 @@
   }
 
   &__title {
-    @include font-size(21);
+    @include font-size(23);
     margin-bottom: 0.5rem;
     line-height: 1.5;
     a {
@@ -30,8 +30,21 @@
     list-style-type: none;
     display: flex;
 
-    li {
-      margin-right: 16px;
+    li:first-child {
+      position: relative;
+      margin-right: 32px;
+
+      &::after {
+        content: '';
+        width: 8px;
+        height: 8px;
+        border-radius: 4px;
+        background-color: darken($c-border, 8);
+        display: block;
+        position: absolute;
+        right: -21px;
+        top: 9px;
+      }
     }
   }
 

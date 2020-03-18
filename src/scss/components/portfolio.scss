@@ -44,9 +44,13 @@
 
   &__title {
     @include font-black();
-    @include font-size(19);
-    margin: 0 0 0.1rem 0;
+    @include font-size(23);
+    margin: 0;
     line-height: 1;
+
+    @media (min-width: $width-mid) {
+      @include font-size(19);
+    }
   }
 
   &__type {
@@ -65,7 +69,7 @@
   }
 
   &__about {
-    padding: 0 16px 32px 16px;
+    padding: 0 0 32px 0;
 
     @media (min-width: $width-wide) {
       padding: 40px 0 0 48px;

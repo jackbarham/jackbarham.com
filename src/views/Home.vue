@@ -15,7 +15,10 @@
       <div class="activity">
         <div class="activity__item" v-for="(activity, index) in activities" :key="index">
           <h3 class="activity__title">
-            <a :href="activity.link" target="_blank">{{ activity.title }}</a>
+            <a
+              :href="activity.link"
+              :target="!activity.external ? '_self' : '_blank'"
+            >{{ activity.title }}</a>
           </h3>
           <p class="activity__intro">{{ activity.copy }}</p>
           <ul class="activity__meta">
@@ -24,8 +27,12 @@
               <a
                 class="activity__link"
                 :href="activity.link"
-                target="_blank"
-              >{{ activity.buttonText }}</a>
+                :target="!activity.external ? '_self' : '_blank'"
+              >
+                {{
+                activity.buttonText
+                }}
+              </a>
             </li>
           </ul>
         </div>

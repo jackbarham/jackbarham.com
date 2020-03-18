@@ -1,47 +1,44 @@
 module.exports = [
   {
-    title: 'Project updates to Vibecast on Indie Hackers',
-    copy:
-      '"It became apparent there was only one option. Create a frictionless platform from the ground up, specifically for DJs." - Read the full story behind Vibecast.',
-    date: '5th Feb 2020',
-    type: 'Article',
-    buttonText: 'Read on Indie Hackers',
-    link: 'https://blog.vibecast.com/welcome-to-vibecast-the-website-builder-for-djs-a412fe1e529d'
+    title: "A message for men on International Woman's Day",
+    copy: "It's time for men to step up and contribute, so here's a message aimed at men on International Women's Day.",
+    date: '8th Mar 2020',
+    buttonText: 'Read on Facebook',
+    link: 'https://www.facebook.com/100024908993113/posts/613089662864661',
+    external: true
   },
   {
-    title: 'Read the story behind my new project Vibecast',
+    title: 'Major updates on the Vibecast marketing website',
     copy:
-      '"It became apparent there was only one option. Create a frictionless platform from the ground up, specifically for DJs." - Read the full story behind Vibecast.',
-    date: '1st Dec 2017',
-    type: 'Article',
-    buttonText: 'Read on Medium',
-    link: 'https://blog.vibecast.com/welcome-to-vibecast-the-website-builder-for-djs-a412fe1e529d'
+      'The first significant update to the marketing website since Vibecast launched. Now includes a cleaner design, example websites, testimonials and product video.',
+    date: '3rd Feb 2020',
+    buttonText: 'View Project',
+    link: '/portfolio/vibecast-website',
+    external: false
   },
   {
-    title: 'Read the story behind my new project Vibecast',
-    copy:
-      '"It became apparent there was only one option. Create a frictionless platform from the ground up, specifically for DJs." - Read the full story behind Vibecast.',
-    date: '1st Dec 2017',
-    type: 'Article',
-    buttonText: 'Read on Medium',
-    link: 'https://blog.vibecast.com/welcome-to-vibecast-the-website-builder-for-djs-a412fe1e529d'
+    title: 'Vibecast milestones published on Indie Hackers',
+    copy: "View Vibecast's milestones in realtime on Indie Hackers. Including partnerships, revenue and PR wins.",
+    date: '3rd Jan 2020',
+    buttonText: 'View on Indie Hackers',
+    link: 'https://www.indiehackers.com/product/vibecast',
+    external: true
   },
   {
-    title: 'Read the story behind my new project Vibecast',
-    copy:
-      '"It became apparent there was only one option. Create a frictionless platform from the ground up, specifically for DJs." - Read the full story behind Vibecast.',
-    date: '1st Dec 2017',
-    type: 'Article',
-    buttonText: 'Read on Medium',
-    link: 'https://blog.vibecast.com/welcome-to-vibecast-the-website-builder-for-djs-a412fe1e529d'
+    title: 'The Collective project goes live',
+    copy: 'The Collective website, a Nuxt.js project I worked on at Matter of Form, has gone live.',
+    date: '2nd Sep 2019',
+    buttonText: 'View Project',
+    link: '/portfolio/the-collective',
+    external: false
   },
   {
-    title: 'Read the story behind my new project Vibecast',
+    title: 'Read the story behind Vibecast',
     copy:
       '"It became apparent there was only one option. Create a frictionless platform from the ground up, specifically for DJs." - Read the full story behind Vibecast.',
-    date: '1st Dec 2017',
-    type: 'Article',
+    date: '8th Apr 2018',
     buttonText: 'Read on Medium',
-    link: 'https://blog.vibecast.com/welcome-to-vibecast-the-website-builder-for-djs-a412fe1e529d'
+    link: 'https://blog.vibecast.com/welcome-to-vibecast-the-website-builder-for-djs-a412fe1e529d',
+    external: true
   }
 ];
