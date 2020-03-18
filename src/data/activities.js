@@ -1,5 +1,14 @@
 module.exports = [
   {
+    title: 'Code for this website is opensource',
+    copy:
+      'I have open-sourced the code for this website on Github which deos not require any back-end. Feel free to use and abuse as you wish.',
+    date: '18th Mar 2020',
+    buttonText: 'View on Github',
+    link: 'https://github.com/jackbarham/jackbarham.com',
+    external: true
+  },
+  {
     title: "A message for men on International Woman's Day",
     copy: "It's time for men to step up and contribute, so here's a message aimed at men on International Women's Day.",
     date: '8th Mar 2020',
@@ -31,14 +40,14 @@ module.exports = [
     buttonText: 'View Project',
     link: '/portfolio/the-collective',
     external: false
-  },
-  {
-    title: 'Read the story behind Vibecast',
-    copy:
-      '"It became apparent there was only one option. Create a frictionless platform from the ground up, specifically for DJs." - Read the full story behind Vibecast.',
-    date: '8th Apr 2018',
-    buttonText: 'Read on Medium',
-    link: 'https://blog.vibecast.com/welcome-to-vibecast-the-website-builder-for-djs-a412fe1e529d',
-    external: true
   }
+  // {
+  //   title: 'Read the story behind Vibecast',
+  //   copy:
+  //     '"It became apparent there was only one option. Create a frictionless platform from the ground up, specifically for DJs." - Read the full story behind Vibecast.',
+  //   date: '8th Apr 2018',
+  //   buttonText: 'Read on Medium',
+  //   link: 'https://blog.vibecast.com/welcome-to-vibecast-the-website-builder-for-djs-a412fe1e529d',
+  //   external: true
+  // }
 ];
