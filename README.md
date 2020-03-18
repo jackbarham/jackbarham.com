@@ -1,24 +1,19 @@
-# jackbarham
+# Custom Portfolio Website
 
-## Project setup
-```
-yarn install
-```
+- Preview [www.jackbarham.com](https://www.jackbarham.com)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Uses
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- Vue.js
+- Gulp (to deploy)
+- AWS S3 & CloudFront
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Set up & Build
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Install: `yarn`
+- Develop: `yarn serve`
+- Deploy `yarn deploy`
+
+## Note
+
+The fonts used are [FF Meta Serif Pro](https://typekit.com/fonts/ff-meta-serif-web-pro) and requires a free [Adobe Typekit](https://typekit.com/plans) account. I've haven't created a fallback option so you're likely to see Times New Roman until you set your own font preferences.
