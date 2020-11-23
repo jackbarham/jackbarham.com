@@ -16,11 +16,11 @@ export default {
   name: 'App',
   components: {
     TheHeader,
-    TheFooter,
+    TheFooter
   },
   data: () => ({
     //
-  }),
+  })
 }
 </script>
 
