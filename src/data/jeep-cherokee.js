@@ -15,4 +15,4 @@ module.exports = {
       image: 'https://static.vibecast.com/jb/jeep-cherokee-2.jpg'
     }
   ]
-};
+}

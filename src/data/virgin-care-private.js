@@ -18,4 +18,4 @@ module.exports = {
       image: 'https://static.vibecast.com/jb/virgin-private-healthcare-3.jpg'
     }
   ]
-};
+}

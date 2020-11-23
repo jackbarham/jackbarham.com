@@ -15,4 +15,4 @@ module.exports = {
       image: 'https://static.vibecast.com/jb/stylist-magazine-2.jpg'
     }
   ]
-};
+}

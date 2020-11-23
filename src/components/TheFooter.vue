@@ -15,11 +15,7 @@
       </div>
       <div class="footer__meta">
         <div class="footer__twitter-follow">
-          <a
-            href="https://twitter.com/JackBarham"
-            class="twitter-follow-button"
-            data-show-count="true"
-          >Follow @JackBarham</a>
+          <a href="https://twitter.com/JackBarham" class="twitter-follow-button" data-show-count="true">Follow @JackBarham</a>
           <div class="footer__legal">
             <p class="footer__copy">Copyright &copy; 2010 - 2020 Airbox Media Ltd</p>
             <!-- <p class="footer__copy">Registered in England & Wales. Company Reg No. 07597522</p> -->
@@ -31,12 +27,11 @@
 </template>
 
 <script>
-import Github from '../icons/Github.vue';
-import Instagram from '../icons/Instagram.vue';
-import Linkedin from '../icons/Linkedin.vue';
-import Medium from '../icons/Medium.vue';
-import Twitter from '../icons/Twitter.vue';
-// import Vibecast from '../icons/Vibecast.vue';
+import Github from '../icons/Github.vue'
+import Instagram from '../icons/Instagram.vue'
+import Linkedin from '../icons/Linkedin.vue'
+import Medium from '../icons/Medium.vue'
+import Twitter from '../icons/Twitter.vue'
 
 export default {
   name: 'TheFooter',
@@ -46,7 +41,6 @@ export default {
     Linkedin,
     Medium,
     Twitter
-    // Vibecast
   },
   data: () => ({
     socials: [
@@ -78,17 +72,18 @@ export default {
     ]
   }),
   mounted() {
-    !(function(d, s, id) {
+    // eslint-disable-next-line
+    !(function (d, s, id) {
       var js,
         fjs = d.getElementsByTagName(s)[0],
-        p = /^http:/.test(d.location) ? 'http' : 'https';
+        p = /^http:/.test(d.location) ? 'http' : 'https'
       if (!d.getElementById(id)) {
-        js = d.createElement(s);
-        js.id = id;
-        js.src = p + '://platform.twitter.com/widgets.js';
-        fjs.parentNode.insertBefore(js, fjs);
+        js = d.createElement(s)
+        js.id = id
+        js.src = p + '://platform.twitter.com/widgets.js'
+        fjs.parentNode.insertBefore(js, fjs)
       }
-    })(document, 'script', 'twitter-wjs');
+    })(document, 'script', 'twitter-wjs')
   }
-};
+}
 </script>

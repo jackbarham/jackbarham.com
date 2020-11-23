@@ -9,19 +9,19 @@
 </template>
 
 <script>
-import TheHeader from '@/components/TheHeader.vue';
-import TheFooter from '@/components/TheFooter.vue';
+import TheHeader from '@/components/TheHeader.vue'
+import TheFooter from '@/components/TheFooter.vue'
 
 export default {
   name: 'App',
   components: {
     TheHeader,
-    TheFooter
+    TheFooter,
   },
   data: () => ({
     //
-  })
-};
+  }),
+}
 </script>
 
 <style src="@/scss/styles.scss" lang="scss" />

@@ -18,4 +18,4 @@ module.exports = {
       image: 'https://static.vibecast.com/jb/marvel-app-blog-3.jpg'
     }
   ]
-};
+}

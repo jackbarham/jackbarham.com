@@ -9,5 +9,5 @@
 export default {
   name: 'Headline',
   props: ['title']
-};
+}
 </script>

@@ -15,4 +15,4 @@ module.exports = {
       image: 'https://static.vibecast.com/jb/toyota-yaris-hybrid-2.jpg'
     }
   ]
-};
+}

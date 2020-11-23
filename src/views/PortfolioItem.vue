@@ -19,13 +19,7 @@
       </ul>
     </div>
     <div class="portfolio__showcase">
-      <img
-        class="portfolio__gallery"
-        v-for="(image, index) in project.images"
-        :key="index"
-        v-lazy="image.image"
-        :alt="project.title"
-      />
+      <img class="portfolio__gallery" v-for="(image, index) in project.images" :key="index" v-lazy="image.image" :alt="project.title" />
     </div>
   </div>
 </template>
@@ -35,8 +29,8 @@ export default {
   name: 'PortfolioItem',
   computed: {
     project() {
-      return require('@/data/' + this.$route.params.pageSlug);
+      return require('@/data/' + this.$route.params.pageSlug)
     }
   }
-};
+}
 </script>

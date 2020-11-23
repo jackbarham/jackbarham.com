@@ -18,4 +18,4 @@ module.exports = {
       image: 'https://static.vibecast.com/jb/vibecast-3.jpg'
     }
   ]
-};
+}

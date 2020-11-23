@@ -18,4 +18,4 @@ module.exports = {
       image: 'https://static.vibecast.com/jb/21-darmouth-street-3.jpg'
     }
   ]
-};
+}

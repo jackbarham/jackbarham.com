@@ -17,4 +17,4 @@ module.exports = {
       image: 'https://static.vibecast.com/jb/postoffice-3.jpg'
     }
   ]
-};
+}

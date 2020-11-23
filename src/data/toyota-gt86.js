@@ -15,4 +15,4 @@ module.exports = {
       image: 'https://static.vibecast.com/jb/toyota-gt86-2.jpg'
     }
   ]
-};
+}

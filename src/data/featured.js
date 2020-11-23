@@ -41,4 +41,4 @@ module.exports = [
     slug: 'belmond',
     featured: true
   }
-];
+]

@@ -18,4 +18,4 @@ module.exports = {
       image: 'https://static.vibecast.com/jb/alerts-to-rss-3.jpg'
     }
   ]
-};
+}

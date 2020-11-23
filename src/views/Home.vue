@@ -15,23 +15,14 @@
       <div class="activity">
         <div class="activity__item" v-for="(activity, index) in activities" :key="index">
           <h3 class="activity__title">
-            <a
-              :href="activity.link"
-              :target="!activity.external ? '_self' : '_blank'"
-            >{{ activity.title }}</a>
+            <a :href="activity.link" :target="!activity.external ? '_self' : '_blank'">{{ activity.title }}</a>
           </h3>
           <p class="activity__intro">{{ activity.copy }}</p>
           <ul class="activity__meta">
             <li>{{ activity.date }}</li>
             <li>
-              <a
-                class="activity__link"
-                :href="activity.link"
-                :target="!activity.external ? '_self' : '_blank'"
-              >
-                {{
-                activity.buttonText
-                }}
+              <a class="activity__link" :href="activity.link" :target="!activity.external ? '_self' : '_blank'">
+                {{ activity.buttonText }}
               </a>
             </li>
           </ul>
@@ -42,8 +33,8 @@
 </template>
 
 <script>
-import Headline from '@/components/Headline.vue';
-import Projects from '@/components/Projects.vue';
+import Headline from '@/components/Headline.vue'
+import Projects from '@/components/Projects.vue'
 
 export default {
   name: 'Home',
@@ -53,11 +44,11 @@ export default {
   },
   computed: {
     featured() {
-      return require('@/data/featured');
+      return require('@/data/featured')
     },
     activities() {
-      return require('@/data/activities');
+      return require('@/data/activities')
     }
   }
-};
+}
 </script>

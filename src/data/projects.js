@@ -146,4 +146,4 @@ module.exports = [
     slug: 'pdhl-parcel-tracker',
     featured: false
   }
-];
+]

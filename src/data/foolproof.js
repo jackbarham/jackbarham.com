@@ -18,4 +18,4 @@ module.exports = {
       image: 'https://static.vibecast.com/jb/foolproof-3.jpg'
     }
   ]
-};
+}
