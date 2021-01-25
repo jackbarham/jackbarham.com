@@ -52,11 +52,15 @@
     display: block;
     height: 48px;
     width: 48px;
-    padding: 8px;
+    padding: 10px;
     background-color: $c-text;
     margin-left: 8px;
     text-align: center;
     transition: background-color $transition;
+
+    @media (min-width: $width-mid) {
+      margin-left: 12px;
+    }
 
     &:first-child {
       margin: 0;
@@ -77,6 +81,10 @@
 
     &.footer__instagram:hover {
       background-color: $color-instagram;
+    }
+
+    &.footer__youtube:hover {
+      background-color: $color-youtube;
     }
 
     &.footer__linkedin:hover {

@@ -18,7 +18,6 @@
           <a href="https://twitter.com/JackBarham" class="twitter-follow-button" data-show-count="true">Follow @JackBarham</a>
           <div class="footer__legal">
             <p class="footer__copy">Copyright &copy; 2010 - 2020 Airbox Media Ltd</p>
-            <!-- <p class="footer__copy">Registered in England & Wales. Company Reg No. 07597522</p> -->
           </div>
         </div>
       </div>
@@ -29,6 +28,7 @@
 <script>
 import Github from '../icons/Github.vue'
 import Instagram from '../icons/Instagram.vue'
+import YouTube from '../icons/YouTube.vue'
 import Linkedin from '../icons/Linkedin.vue'
 import Medium from '../icons/Medium.vue'
 import Twitter from '../icons/Twitter.vue'
@@ -38,6 +38,7 @@ export default {
   components: {
     Github,
     Instagram,
+    YouTube,
     Linkedin,
     Medium,
     Twitter
@@ -53,6 +54,11 @@ export default {
         name: 'Instagram',
         class: 'instagram',
         url: 'https://www.instagram.com/jackbarham'
+      },
+      {
+        name: 'YouTube',
+        class: 'youtube',
+        url: 'https://www.youtube.com/jackbarham'
       },
       {
         name: 'Linkedin',
