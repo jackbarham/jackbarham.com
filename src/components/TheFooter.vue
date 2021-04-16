@@ -17,7 +17,7 @@
         <div class="footer__twitter-follow">
           <a href="https://twitter.com/JackBarham" class="twitter-follow-button" data-show-count="true">Follow @JackBarham</a>
           <div class="footer__legal">
-            <p class="footer__copy">Copyright &copy; 2010 - 2020 Airbox Media Ltd</p>
+            <p class="footer__copy">Copyright &copy; 2010 - 2021 Airbox Media Ltd</p>
           </div>
         </div>
       </div>

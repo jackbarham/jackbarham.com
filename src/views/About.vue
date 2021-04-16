@@ -14,27 +14,27 @@
 export default {
   name: 'About',
   data: () => ({
-    image: 'https://static.vibecast.com/jb/jack-barham.jpg',
+    image: 'https://static.vibecast.com/jb/jack-barham-2.jpg',
     about: [
       {
         title: 'About me',
         copy:
-          "<p>I'm a digital all-rounder living in Dalston, London. I taught myself web design and development in 2007 and never looked back.</p>"
+          "<p>I'm a digital all-rounder based in London. I taught myself web design and development in 2007 and never looked back.</p>"
       },
       {
         title: 'What I do',
         copy:
-          "<p>I work in, but not limited to, front-end development. I've built websites for large and small companies, freelanced for a lot of London agencies and several startups.</p><p>My forte is responsive website, web application, and user-interface design and development. I'm primarily a front-end developer with strong UI design and back-end skills.</p><p>I have a lot of experience with rapid prototyping, designing in the browser, building MVPs, and turning them into scaleable products. I often work with prototyping tools along with Sketch, Photoshop, Javascript (native, ES6 and Vue.js), PHP (Laravel and WordPress) and AWS.</p><p>I can also run teams (in person and remotely), provide technical and strategic consultancy, and I'm able to plan and manage projects.</p>"
+          "<p>I work in, but not limited to, front-end development. I build websites for large and small companies, freelanced for many London agencies and several startups.</p><p>My forte is mobile-first website, web application, and user-interface design and development. I'm primarily a front-end developer with strong UI design and back-end skills.</p><p>I often work with Sketch, Photoshop, Javascript (native, ES6 and Vue.js), PHP (Laravel and WordPress) and AWS.</p><p>I'm experienced in rapid prototyping, designing in the browser, building MVPs, turning them into scaleable products, and providing consultancy for new projects. I also run teams, in person and remotely, and I can plan and manage projects.</p>"
       },
       {
-        title: 'Currently',
+        title: 'On the side',
         copy:
-          '<p>I split my time between <a href="https://uk.yunojuno.com/p/jackbarham" target="_blank">freelancing</a> and building <a href="/portfolio/vibecast-website">Vibecast</a>, my side-project I designed in <a href="https://www.sketchapp.com" target="_blank" rel="noopener">Sketch</a> and developed in <a href="https://laravel.com" target="_blank" rel="noopener">Laravel</a> and <a href="https://vuejs.org" target="_blank" rel="noopener">Vue.js</a>.</p><p>I\'ll work on location in Central and East London, I have my own home office to work remotely, and I often take bookings through <a href="https://uk.yunojuno.com/p/jackbarham" target="_blank" rel="noopener">YunoJuno</a>.</p>'
+          '<p>Between freelancing, I work on <a href="/portfolio/vibecast-website">Vibecast</a>, my side-project I designed in Sketch and developed in Laravel and Vue.js.<p>I also make tech-based <a href="https://www.youtube.com/jackbarham" target="_blank" rel="noopener">explainer videos</a> too.</p>'
       },
       {
         title: 'Contact',
         copy:
-          '<p>Email me <a href="mailto:jack@vibecast.com">jack@vibecast.com</a> or tweet <a href="https://twitter.com/JackBarham" target="_blank" rel="noopener">@jackbarham</a>.</p>'
+          '<p>I\'ll work on location in Central and East London, I have my own home office to work remotely, and I often take bookings through <a href="https://uk.yunojuno.com/p/jackbarham" target="_blank" rel="noopener">YunoJuno</a>.</p><p>Email me <a href="mailto:jack@airboxmedia.com">jack@airboxmedia.com</a> or tweet <a href="https://twitter.com/JackBarham" target="_blank" rel="noopener">@jackbarham</a>.</p>'
       }
     ]
   })

@@ -1,6 +1,4 @@
-$c-yellow: #ffde4a;
-
-.portfolio {
+.video {
   &__items {
     @media (min-width: $width-slim) {
       display: flex;
@@ -38,7 +36,7 @@ $c-yellow: #ffde4a;
     margin-bottom: 8px;
   }
 
-  &__image {
+  &__cover {
     position: absolute;
     opacity: 1;
     transition: opacity $transition;
@@ -46,13 +44,6 @@ $c-yellow: #ffde4a;
     object-fit: cover;
     width: 100%;
     height: 100%;
-  }
-
-  &__gallery {
-    position: relative;
-    margin-bottom: 16px;
-    background-color: $c-border;
-    padding-bottom: 64%;
   }
 
   &__title {
@@ -64,52 +55,5 @@ $c-yellow: #ffde4a;
     @media (min-width: $width-mid) {
       @include font-size(19);
     }
-  }
-
-  &__type {
-    @include font-s-regular();
-    @include font-size(15);
-    color: $c-text-light;
-    position: relative;
-    top: -2px;
-  }
-
-  &__project {
-    @media (min-width: $width-wide) {
-      display: flex;
-      flex-direction: row-reverse;
-    }
-  }
-
-  &__about {
-    padding: 0 0 32px 0;
-
-    @media (min-width: $width-wide) {
-      padding: 40px 0 0 48px;
-      width: 43%;
-    }
-  }
-
-  &__heading {
-    @include font-size(37);
-  }
-
-  &__meta {
-    @include font-size(15);
-    list-style-type: circle;
-    margin: 0;
-    padding: 0 0 0 24px;
-
-    li {
-      margin-bottom: 4px;
-
-      span {
-        @include font-medium();
-      }
-    }
-  }
-
-  &__showcase {
-    flex: 1;
   }
 }

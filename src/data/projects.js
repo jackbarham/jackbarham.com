@@ -1,5 +1,19 @@
 module.exports = [
   {
+    title: 'Third Channel',
+    type: 'Film & TV Production',
+    cover: 'https://static.vibecast.com/jb/thirdchannel.jpg',
+    slug: 'third-channel',
+    featured: true
+  },
+  {
+    title: 'Anassa Hotel',
+    type: 'Hotel & Resort',
+    cover: 'https://static.vibecast.com/jb/anassa.jpg',
+    slug: 'anassa-hotel',
+    featured: true
+  },
+  {
     title: 'The Collective',
     type: 'Co-Living Spaces',
     cover: 'https://static.vibecast.com/jb/the-collective.jpg',
@@ -11,7 +25,7 @@ module.exports = [
     type: 'Luxury Villa Rentals',
     cover: 'https://static.vibecast.com/jb/guest.jpg',
     slug: 'guest',
-    featured: true
+    featured: false
   },
   {
     title: 'Vibecast - Website',
@@ -46,7 +60,7 @@ module.exports = [
     type: 'Fincancial Services',
     cover: 'https://static.vibecast.com/jb/postoffice.jpg',
     slug: 'post-office-mortgages',
-    featured: true
+    featured: false
   },
   {
     title: '21 Darmouth St',
@@ -139,11 +153,4 @@ module.exports = [
     slug: 'toyota-yaris-hybrid',
     featured: false
   },
-  {
-    title: 'DHL – Parcel Tracker',
-    type: 'Mobile Web Application',
-    cover: 'https://static.vibecast.com/jb/dhl.jpg',
-    slug: 'pdhl-parcel-tracker',
-    featured: false
-  }
 ]

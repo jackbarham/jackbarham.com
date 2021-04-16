@@ -58,10 +58,6 @@
     text-align: center;
     transition: background-color $transition;
 
-    @media (min-width: $width-mid) {
-      margin-left: 12px;
-    }
-
     &:first-child {
       margin: 0;
     }

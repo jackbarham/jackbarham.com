@@ -1,16 +1,16 @@
 module.exports = [
   {
-    title: 'The Collective',
-    type: 'Co-Living Spaces',
-    cover: 'https://static.vibecast.com/jb/the-collective.jpg',
-    slug: 'the-collective',
+    title: 'Third Channel',
+    type: 'Film & TV Production',
+    cover: 'https://static.vibecast.com/jb/thirdchannel.jpg',
+    slug: 'third-channel',
     featured: true
   },
   {
-    title: 'Guest',
-    type: 'Luxury Villa Rentals',
-    cover: 'https://static.vibecast.com/jb/guest.jpg',
-    slug: 'guest',
+    title: 'Anassa Hotel',
+    type: 'Hotel & Resort',
+    cover: 'https://static.vibecast.com/jb/anassa.jpg',
+    slug: 'anassa-hotel',
     featured: true
   },
   {
@@ -21,17 +21,17 @@ module.exports = [
     featured: true
   },
   {
+    title: 'The Collective',
+    type: 'Co-Living Spaces',
+    cover: 'https://static.vibecast.com/jb/the-collective.jpg',
+    slug: 'the-collective',
+    featured: true
+  },
+  {
     title: 'Heckfield Place',
     type: 'Luxury retreat',
     cover: 'https://static.vibecast.com/jb/heckfield-place-cover.jpg',
     slug: 'heckfield-place',
-    featured: true
-  },
-  {
-    title: 'Foolproof',
-    type: 'User Experience Agency',
-    cover: 'https://static.vibecast.com/jb/foolproof.jpg',
-    slug: 'foolproof',
     featured: true
   },
   {
