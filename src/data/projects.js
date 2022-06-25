@@ -1,5 +1,12 @@
 module.exports = [
   {
+    title: 'McDonald\'s Monopoly',
+    type: 'Web & Mobile App',
+    cover: 'https://static.jackbarham.com/jb/mcdonalds.jpg',
+    slug: 'mcdonalds-monopoly',
+    featured: true
+  },
+  {
     title: 'Third Channel',
     type: 'Film & TV Production',
     cover: 'https://static.jackbarham.com/jb/thirdchannel.jpg',
