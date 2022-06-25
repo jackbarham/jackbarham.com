@@ -5,16 +5,13 @@
       <div class="portfolio__copy" v-html="project.copy"></div>
       <ul class="portfolio__meta">
         <li>
-          <span>Type:</span>
-          {{ project.type }}
+          <span>Type:</span> {{ project.type }}
         </li>
         <li>
-          <span>Role:</span>
-          {{ project.role }}
+          <span>Role:</span> {{ project.role }}
         </li>
         <li>
-          <span>Published:</span>
-          {{ project.published }}
+          <span>Published:</span> {{ project.published }}
         </li>
       </ul>
     </div>
