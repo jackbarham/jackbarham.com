@@ -14,6 +14,13 @@ module.exports = [
     featured: true
   },
   {
+    title: 'Vibecast',
+    type: 'Website builder for DJs',
+    cover: 'https://static.jackbarham.com/jb/vibecast-website.jpg',
+    slug: 'vibecast',
+    featured: true
+  },
+  {
     title: 'Anassa Hotel',
     type: 'Hotel & Resort',
     cover: 'https://static.jackbarham.com/jb/anassa.jpg',
@@ -33,13 +40,6 @@ module.exports = [
     cover: 'https://static.jackbarham.com/jb/guest.jpg',
     slug: 'guest',
     featured: false
-  },
-  {
-    title: 'Vibecast - Website',
-    type: 'Website builder for DJs',
-    cover: 'https://static.jackbarham.com/jb/vibecast-website.jpg',
-    slug: 'vibecast-website',
-    featured: true
   },
   {
     title: 'Heckfield Place',

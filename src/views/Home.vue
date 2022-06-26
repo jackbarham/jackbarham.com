@@ -1,8 +1,7 @@
 <template>
   <div class="home">
     <h2 class="home__hero">
-      Digital Product
-      <br />Designer &amp; Developer
+      Digital Product<br />Designer &amp; Developer
     </h2>
     <div class="layout__wide">
       <headline title="Featured Projects" />

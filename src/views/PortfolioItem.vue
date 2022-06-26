@@ -16,6 +16,9 @@
       </ul>
     </div>
     <div class="portfolio__showcase">
+      <div v-if="project.video" class="portfolio__video">
+        <iframe :src="videoEmbed(project.video)" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+      </div>
       <div class="portfolio__gallery" v-for="(image, index) in project.images" :key="index" >
         <img class="portfolio__image" v-lazy="image.image" :alt="project.title" />
       </div>
@@ -30,6 +33,11 @@ export default {
     project() {
       return require('@/data/portfolio/' + this.$route.params.pageSlug)
     }
-  }
+  },
+  methods: {
+    videoEmbed(video) {
+      return `//youtube.com/embed/${video}?&modestbranding=1&showinfo=0&mute=0&autoplay=0&rel=0`
+    }
+  },
 }
 </script>

@@ -63,7 +63,7 @@ export default {
       {
         name: 'Linkedin',
         class: 'linkedin',
-        url: 'https://www.linkedin.com/pub/jack-barham/13/265/ba5'
+        url: 'https://uk.linkedin.com/in/jack-barham-ba526513'
       },
       {
         name: 'Github',

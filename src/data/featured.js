@@ -14,17 +14,17 @@ module.exports = [
     featured: true
   },
   {
+    title: 'Vibecast',
+    type: 'Website builder for DJs',
+    cover: 'https://static.jackbarham.com/jb/vibecast-website.jpg',
+    slug: 'vibecast',
+    featured: true
+  },
+  {
     title: 'Anassa Hotel',
     type: 'Luxuary Hotel & Resort Websites',
     cover: 'https://static.jackbarham.com/jb/anassa.jpg',
     slug: 'anassa-hotel',
-    featured: true
-  },
-  {
-    title: 'Vibecast',
-    type: 'Website builder for DJs',
-    cover: 'https://static.jackbarham.com/jb/vibecast-website.jpg',
-    slug: 'vibecast-website',
     featured: true
   },
   {

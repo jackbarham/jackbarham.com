@@ -55,6 +55,24 @@ $c-yellow: #ffde4a;
     padding-bottom: 64%;
   }
 
+  &__video {
+    background-color: rgb(241, 241, 241);
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    margin-bottom: 16px;
+
+    > iframe {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      background-color: #000;
+    }
+  }
+
   &__title {
     @include font-black();
     @include font-size(23);
